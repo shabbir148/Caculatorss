@@ -1,5 +1,5 @@
 FROM openjdk:11
-ADD target/docker-spring-boot.jar docker-spring-boot.jar
+ADD target/calculatorss-0.0.1-SNAPSHOT.jar calculatorss-0.0.1-SNAPSHOT.jar
 EXPOSE 8085
 CMD ["java", "-jar", "calculatorss-0.0.1-SNAPSHOT.jar"]
 

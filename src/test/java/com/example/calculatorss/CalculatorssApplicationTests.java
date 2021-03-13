@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 class CalculatorssApplicationTests {
 
 
-    ComputeController controller = new ComputeController();
+    ComputerController controller = new ComputerController();
 
     @Test
     void squareRootTruePositive() {
